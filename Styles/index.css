@@ -1,0 +1,42 @@
+main {
+  align-items: normal;
+  background-color: 	#e5ce97;
+}
+.navbar-design {
+  background-color: #e2ad3d;
+}
+.toggle {
+  font-size: 18px;
+}
+.button{
+  background: transparent;
+  border: none;
+}
+.collapse ul li a{
+  font-size: 17px;
+}
+.bi-rainbow {
+  font-size: 20px;
+  margin-right: 4px;
+}
+.input-search{
+  margin-left: 10px;
+}
+#input:focus{
+  box-shadow: none;
+  outline: none;
+}
+.search{
+  border: none;
+  outline: none;
+  padding: 0.5em 2em;
+  background-color: #793915;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.20s;
+  cursor: pointer;
+}
+.search:active{
+  background-color: #896823;
+  color: black;
+}

@@ -1,0 +1,126 @@
+.image {
+  display: none;
+}
+.containers{
+  background-color: white;
+  border-radius: 12px;
+  padding: 1em;
+}
+p{
+  font-size: 24px;
+  text-align: center;
+  color: #793915;
+}
+.text{
+  text-align: left;
+}
+.star{
+  color: red;
+}
+.form-label {
+  color: #793915;
+}
+#input, #inputs {
+  border-color: #793915;
+}
+#input:focus, #inputs:focus{
+  overflow: hidden;
+  box-shadow: none;
+
+}
+.error-border {
+  border: 2px solid red;
+}
+.error-msg-email , .error-msg-password {
+  margin-top: 2px;
+  color: red;
+  font-size: 12px;
+}
+.eye , .eye-slash{
+  color: #793915;
+  cursor: pointer;
+}
+.eye-toggle {
+  border: none;
+  outline: none;
+  background:none
+}
+.input-group span{
+  color: #793915;
+  background-color: #e2ad3d;
+  border-color: #793915;
+}
+.login {
+  font-size: 16px;
+  background-color: 	#793915;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  transition: all 0.20s;
+}
+.login:active {
+  background-color: #e2ad3d;
+  color: black;
+}
+.login-icon {
+  font-size: 15px;
+  margin-left: -5px;
+  margin-right: 6px;
+}
+.signup {
+  background-color: 	#793915;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  transition: all 0.20s;
+}
+.signup:active {
+  background-color: #896823;
+}
+.hyperlink a{
+  color: #842e21;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #e2ad3d;
+}
+
+@media screen and (max-width < 576px){
+  .containers {
+    width: 90%;
+  }
+}
+@media screen and (min-width : 576px){
+  .containers {
+    width: 90%;
+  }
+}
+@media screen and (max-width : 768px){
+  .containers {
+    width: 90%;
+  }
+}
+@media screen and (min-width : 900px){
+  .containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+  }
+  .image {
+    display: block;
+    width: 300px;
+    margin-right: 20px;
+  }
+  .login-container {
+    width: 40%;
+  }
+} 
